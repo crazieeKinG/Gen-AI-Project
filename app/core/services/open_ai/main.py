@@ -1,5 +1,8 @@
-from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from app.core.constants.open_ai import OPENAI_API_KEY
+from app.core.services.logger.main import logger
+
+from langchain_openai import OpenAIEmbeddings, ChatOpenAI
+
 
 # Initialize embeddings
 embeddings = OpenAIEmbeddings(
@@ -8,3 +11,5 @@ embeddings = OpenAIEmbeddings(
 
 # LLM model
 llm = ChatOpenAI(model_name="gpt-4o-mini", temperature=0)
+
+logger.info("=== Initializing embeddings and LLM model ===")

@@ -6,3 +6,9 @@ venv
 
 # Environment files
 *.env
+
+# Cache files
+.DS_Store
+
+# Chroma DB
+chroma-db

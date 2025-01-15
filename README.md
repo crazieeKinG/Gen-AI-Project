@@ -31,7 +31,7 @@ This project is built using Python's FastAPI framework. It includes endpoints fo
 ```pip install -r requirements.txt```
 
 ### Run the Application Start the FastAPI application using Uvicorn:
-```uvicorn main:app --reload```
+```uvicorn app.main:app --reload```
 
 This will start the server, and you can access the API documentation at http://127.0.0.1:8000/docs.
 
