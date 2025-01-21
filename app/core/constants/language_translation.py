@@ -5,7 +5,7 @@ Guidelines:```
 - Ensure the translation maintains the original meaning and context.
 - Use appropriate grammar and vocabulary for the target language.
 - Avoid literal translations for large sentences that may not convey the intended message.
-- Optimized for use within mobile apps. Use terminology and phrases that are commonly seen in app interfaces, such as buttons, menus, settings, error messages, and notifications.
+- Ensure the culture and style of the source text should be preserved.
 ```
 
 Extraction: ```
@@ -21,7 +21,7 @@ Extraction: ```
 
 Example:```
     Source Language Code: "en"
-    Target Language Code: "np"
+    Target Language Code: "ne"
     Text to Translate: "Hello, how are you?"
     Translated Text: "नमस्ते, तपाईंलाई कस्तो छ?"
     Text to Translate: "Something went wrong"
