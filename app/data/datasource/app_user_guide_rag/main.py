@@ -10,7 +10,7 @@ from langchain_chroma import Chroma
 pdf_documents = pdf_loader.load_pdf_file(APP_USER_GUIDE_URL)
 
 # Initialize the vector db for the PDF
-logger.info("=== Initializing vector db for app user guide===")
+logger.info("=== Initializing vector db for app user guide ===")
 pdf_vector_db = Chroma.from_documents(
     documents=pdf_documents,
     collection_name="app_user_guide",

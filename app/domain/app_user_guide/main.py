@@ -15,4 +15,12 @@ class AppUserGuideResponse(BaseModel):
     source: Optional[str] = Field(
         description="The source of the app user guide template responses only if it is relevant"
     )
+    translated_response: Optional[dict] = None
     created_at: str = Field(description="The created time stamp of responses on utc")
+
+
+class AppUserGuideBody(BaseModel):
+    """Format the request body of the app user guide template"""
+
+    query: str = "Hi"
+    target_language: str = "en"
