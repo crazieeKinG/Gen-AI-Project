@@ -18,7 +18,8 @@ def generate_response(body: AppUserGuideBody):
         body.query,
         body.target_language,
     )
-    response = pdf_rag_invoker(body.query, body.target_language)
+
+    response = pdf_rag_invoker(body.query, body.target_language, body.chat_logs)
 
     logger.info(
         "=== Response generated successfully for query: %s, target language: %s ===",
@@ -26,4 +27,4 @@ def generate_response(body: AppUserGuideBody):
         body.target_language,
     )
 
-    return response.dict()
+    return response

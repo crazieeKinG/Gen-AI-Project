@@ -16,7 +16,6 @@ class LanguageTranslationResponse(BaseModel):
     target_lang: str = Field(
         description="The target language of the text. The target_lang section of the response.",
     )
-    created_at: str = Field(description="The created time stamp of responses on utc")
 
 
 class LanguageTranslationBody(BaseModel):
