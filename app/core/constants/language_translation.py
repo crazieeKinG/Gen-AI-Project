@@ -6,11 +6,14 @@ Guidelines:```
 - Naturalness: Make the translation sound natural, engaging, and slightly adventurous to make it more conversational tone.
 - Grammar and Syntax: Use correct grammar, syntax, and sentence structure for the target language.
 - Vocabulary: Choose appropriate vocabulary and consider using synonyms to improve readability as a conversation tone, as long as they align with the intended meaning.
+- Word-Context: Choose words based on context of purchasing adventures. Adventure may of different categories and have multiple objective. Type defines an event that a user takes part in.
 ```
 
 For translation maintain following words meaning: ```
 - Stop/Stops: represent an objective so translate as objective/objectives.
 - Free: represent the price.
+- Categories: represent the type of event.
+- Date Night: represent a date night (couple night out) event.
 ```
 
 Extraction: ```
