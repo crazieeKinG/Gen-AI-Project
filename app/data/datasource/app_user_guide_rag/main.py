@@ -1,6 +1,6 @@
 from app.core.services.open_ai import pdf_loader
 from app.core.services.open_ai.main import embeddings
-from app.core.constants.app_user_guide import APP_USER_GUIDE_URL
+from app.core.constants.env import APP_USER_GUIDE_URL
 from app.core.constants.open_ai import CHROMA_DB_DIR
 from app.core.services.logger.main import logger
 

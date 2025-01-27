@@ -1,4 +1,4 @@
-from app.core.constants.open_ai import OPENAI_API_KEY
+from app.core.constants.env import OPENAI_API_KEY
 from app.core.services.logger.main import logger
 
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI

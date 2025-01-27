@@ -1,10 +1,3 @@
-from os import getenv
-from dotenv import load_dotenv
-
-load_dotenv()
-
-APP_USER_GUIDE_URL = getenv("APP_USER_GUIDE_URL")
-
 chat_history_aware_prompt = """
 Given a query and chat history.
 
