@@ -2,9 +2,6 @@ from app.feature.app_user_guide import main as app_user_guide
 from app.feature.language_translation import main as language_translate
 
 from fastapi import FastAPI
-from dotenv import load_dotenv
-
-load_dotenv()
 
 app = FastAPI()
 
