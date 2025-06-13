@@ -12,3 +12,4 @@ venv
 
 # Chroma DB
 chroma-db
+.qodo/

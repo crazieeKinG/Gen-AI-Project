@@ -5,7 +5,6 @@ from app.core.constants.open_ai import CHROMA_DB_DIR
 from app.core.services.logger.main import logger
 
 from langchain_chroma import Chroma
-
 # Load the PDF document from the URL
 pdf_documents = pdf_loader.load_pdf_file(APP_USER_GUIDE_URL)
 

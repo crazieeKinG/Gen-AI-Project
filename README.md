@@ -6,13 +6,13 @@ This project is built using Python's FastAPI framework. It includes endpoints fo
 ## Setup Instructions
 
 ### Prerequisites
-- Ensure you have Python v3.13 installed on your system.
+- Ensure you have Python v3.12 installed on your system.
 
 ### Steps
 
-1. **Install Python v3.13**
+1. **Install Python v3.12**
 
-   Download and install Python v3.13 from the official [Python website](https://www.python.org/downloads/).
+   Download and install Python v3.12 from the official [Python website](https://www.python.org/downloads/).
 
 2. **Create a Virtual Environment**
 
